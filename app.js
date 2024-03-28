@@ -9,3 +9,9 @@ app.get("/", (req, res) => {
 app.listen(8081, () => {
     console.log("Server in 8081");
 })
+
+/* Cada vez que se quiera realizar cambios y subirlos al repositorio:
+- git add .
+- git commit -m "comentario"
+- git push
+*/
